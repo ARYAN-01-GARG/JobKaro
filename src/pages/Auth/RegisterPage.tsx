@@ -1,20 +1,25 @@
 import Modal from "../../components/Header/auth/Modal"
 
 const RegisterPage = () => {
+
+  const body = ( <div>
+    hello
+  </div>)
+
+
+
+
   return (
     <div>
       <Modal
-        title='Register'
-        body={(
-          <>
-            hello
-          </>
-        )}
+        title='Create account'
+        subTitle='Welcome to Our website'
+        body={body}
         footer ={
           <>Footer</>
         }
         onSubmit={()=>{}}
-        actionLabel="continue"
+        actionLabel="Create acount"
         disable={false}
         showBackButton
       />
